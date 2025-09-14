@@ -1,0 +1,63 @@
+{
+  "models": {
+    "gpt-4o-mini": {
+      "provider": "openai",
+      "model_name": "gpt-4o-mini",
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "max_tokens": 200,
+      "version": "2024-09-08"
+    },
+    "llama-3.3-70b-instruct": {
+      "provider": "meta-llama",
+      "model_name": "llama-3.3-70b-instruct",
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "max_tokens": 200,
+      "version": "2024-09-08"
+    },
+    "gemini-pro": {
+      "provider": "google",
+      "model_name": "gemini-pro",
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "max_tokens": 200,
+      "version": "2024-09-08"
+    },
+    "claude-3.5-sonnet": {
+      "provider": "anthropic",
+      "model_name": "claude-3.5-sonnet",
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "max_tokens": 200,
+      "version": "2024-09-08"
+    }
+  },
+  "seeds": {
+    "drift_analysis": 42,
+    "cot_evaluation": 123,
+    "gamestate_generation": 456,
+    "ablation_studies": 789
+  },
+  "decoding_parameters": {
+    "temperature_range": [0.3, 0.7, 1.0],
+    "top_p_range": [0.8, 0.9, 0.95],
+    "max_tokens": 200,
+    "repetition_penalty": 1.1
+  },
+  "evaluation_config": {
+    "drift_analysis_weights": {
+      "semantic_distance": 0.3,
+      "token_variation": 0.2,
+      "argument_structure_drift": 0.2,
+      "evidence_consistency": 0.15,
+      "rebuttal_engagement_drift": 0.15
+    },
+    "cot_quality_weights": {
+      "reasoning_depth": 0.25,
+      "evidence_integration": 0.25,
+      "logical_flow": 0.25,
+      "step_coherence": 0.25
+    }
+  }
+}

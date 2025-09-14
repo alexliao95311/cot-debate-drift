@@ -1,0 +1,142 @@
+[
+  {
+    "model_name": "gpt-4o-mini",
+    "capability": "debating",
+    "test_case": "debate_hr40_pro_real",
+    "analysis": {
+      "capability": "debating",
+      "overall_quality": "fair",
+      "reasoning_depth": 0.29,
+      "evidence_integration": 0.75,
+      "logical_flow": 0.5,
+      "step_coherence": 0.3333333333333333,
+      "total_score": 0.4683333333333333,
+      "timestamp": "2025-09-14T10:30:29.814887",
+      "extracted_steps": [
+        {
+          "step_number": 1,
+          "description": "Moral and historical obligation\nThe bill states \"approximately 4,000,000 Africans and their descenda...",
+          "reasoning": "Moral and historical obligation\nThe bill states \"approximately 4,000,000 Africans and their descendants were enslaved in the United States...\" and finds that \"the slavery ... constituted an immoral an",
+          "evidence": "The bill states \"approximately 4,000,000 Africans and their descendants were enslaved in the United States.",
+          "confidence": 0.4,
+          "quality_score": 0.8
+        }
+      ]
+    },
+    "performance_metrics": {
+      "total_score": 0.4683333333333333,
+      "reasoning_depth": 0.29,
+      "evidence_integration": 0.75,
+      "logical_flow": 0.5,
+      "step_coherence": 0.3333333333333333,
+      "element_coverage": 0.0,
+      "step_count": 1,
+      "avg_step_quality": 0.8
+    }
+  },
+  {
+    "model_name": "gpt-4o-mini",
+    "capability": "debating",
+    "test_case": "debate_hr40_con_real",
+    "analysis": {
+      "capability": "debating",
+      "overall_quality": "fair",
+      "reasoning_depth": 0.28,
+      "evidence_integration": 1.0,
+      "logical_flow": 0.5,
+      "step_coherence": 0.3333333333333333,
+      "total_score": 0.5283333333333333,
+      "timestamp": "2025-09-14T10:30:29.815143",
+      "extracted_steps": [
+        {
+          "step_number": 1,
+          "description": "Biased commission composition\nThe bill states \"Six members shall be selected from the major civil so...",
+          "reasoning": "Biased commission composition\nThe bill states \"Six members shall be selected from the major civil society and reparations organizations that have historically championed the cause of reparatory justic",
+          "evidence": "The bill states \"Six members shall be selected from the major civil society and reparations organizations that have historically championed the cause of reparatory justice\" (Section 4(a)(1)(D)).",
+          "confidence": 0.4,
+          "quality_score": 0.8
+        }
+      ]
+    },
+    "performance_metrics": {
+      "total_score": 0.5283333333333333,
+      "reasoning_depth": 0.28,
+      "evidence_integration": 1.0,
+      "logical_flow": 0.5,
+      "step_coherence": 0.3333333333333333,
+      "element_coverage": 0.0,
+      "step_count": 1,
+      "avg_step_quality": 0.8
+    }
+  },
+  {
+    "model_name": "gpt-4o-mini",
+    "capability": "judging",
+    "test_case": "judge_hr40_real",
+    "analysis": {
+      "capability": "judging",
+      "overall_quality": "poor",
+      "reasoning_depth": 0.25,
+      "evidence_integration": 0.0,
+      "logical_flow": 0.5,
+      "step_coherence": 0.3333333333333333,
+      "total_score": 0.2708333333333333,
+      "timestamp": "2025-09-14T10:30:29.815431",
+      "extracted_steps": [
+        {
+          "step_number": 1,
+          "description": "Based on the complete debate transcript, I will evaluate each side's performance and determine the w...",
+          "reasoning": "Based on the complete debate transcript, I will evaluate each side's performance and determine the winner based on argument quality, evidence usage, and rebuttal effectiveness.",
+          "evidence": null,
+          "confidence": 0.4,
+          "quality_score": 0.6000000000000001
+        }
+      ]
+    },
+    "performance_metrics": {
+      "total_score": 0.2708333333333333,
+      "reasoning_depth": 0.25,
+      "evidence_integration": 0.0,
+      "logical_flow": 0.5,
+      "step_coherence": 0.3333333333333333,
+      "element_coverage": 0.0,
+      "step_count": 1,
+      "avg_step_quality": 0.6000000000000001
+    }
+  },
+  {
+    "model_name": "gpt-4o-mini",
+    "capability": "feedback",
+    "test_case": "feedback_real",
+    "analysis": {
+      "capability": "feedback",
+      "overall_quality": "poor",
+      "reasoning_depth": 0.21,
+      "evidence_integration": 0.0,
+      "logical_flow": 0.5,
+      "step_coherence": 0.3333333333333333,
+      "total_score": 0.2608333333333333,
+      "timestamp": "2025-09-14T10:30:29.815575",
+      "extracted_steps": [
+        {
+          "step_number": 1,
+          "description": "Based on the actual debate performance, here's my feedback for improvement: focus on evidence integr...",
+          "reasoning": "Based on the actual debate performance, here's my feedback for improvement: focus on evidence integration, strengthen rebuttals, and improve argument structure.",
+          "evidence": null,
+          "confidence": 0.4,
+          "quality_score": 0.6000000000000001
+        }
+      ]
+    },
+    "performance_metrics": {
+      "total_score": 0.2608333333333333,
+      "reasoning_depth": 0.21,
+      "evidence_integration": 0.0,
+      "logical_flow": 0.5,
+      "step_coherence": 0.3333333333333333,
+      "element_coverage": 0.0,
+      "step_count": 1,
+      "avg_step_quality": 0.6000000000000001
+    }
+  }
+]
